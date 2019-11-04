@@ -8,4 +8,4 @@ $ rake db:create
 $ rails server
 ```
 
-http://localhost:3000/posts
+http://localhost:3000/
