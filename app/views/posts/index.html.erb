@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Noses</h1>
+<br>
+<%= link_to 'Get_New Post', run_crawler_crawlers_path, :method => :post %>
+<br>
+<br>
+<br>
+<% @posts.each do |post| %>
+  <a href="<%= post.content_url %>">
+  	<%= post.title %>
+  	<%= post.content %>
+  	<img src="<%= post.picture_url %>" >
+  </a>
+  <br>
+  <br>
+<% end %>
+
