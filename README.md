@@ -1,5 +1,4 @@
 # README
-声優さんのSNSクローリング
 
 ```
 $ git clone https://github.com/LoveL29/kokoichi.git
